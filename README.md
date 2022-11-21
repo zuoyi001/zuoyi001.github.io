@@ -1,6 +1,6 @@
 # DRM（Direct Rendering Manager）学习简介
 
-分类专栏： [DRM (Direct Rendering Manager)](https://blog.csdn.net/hexiaolong2009/category_9281458.html) 文章标签： [DRM](https://so.csdn.net/so/search/s.do?q=DRM&t=blog&o=vip&s=&l=&f=&viparticle=) [Direct Rendering Manager](https://so.csdn.net/so/search/s.do?q=Direct Rendering Manager&t=blog&o=vip&s=&l=&f=&viparticle=) [KMS](https://www.csdn.net/tags/MtzaMg0sNzM1NzAtYmxvZwO0O0OO0O0O.html)
+分类专栏： [DRM (Direct Rendering Manager)] 文章标签： [DRM][Direct Rendering Manager] [KMS]
 
 版权
 
@@ -60,35 +60,35 @@ GEM：**`DUMB`**、**`PRIME`**、**`fence`**
 
 本篇博客将作为本人DRM学习教程的目录汇总，后续我会以示例代码的形式和大家分享上述知识点的学习过程，并不断更新目录链接，敬请期待！
 
-1. [最简单的DRM应用程序 （single-buffer）](https://blog.csdn.net/hexiaolong2009/article/details/83721242)
-2. [最简单的DRM应用程序 （double-buffer）](https://blog.csdn.net/hexiaolong2009/article/details/84452020)
-3. [最简单的DRM应用程序 （page-flip）](https://blog.csdn.net/hexiaolong2009/article/details/84674127)
-4. [最简单的DRM应用程序 （plane-test）](https://blog.csdn.net/hexiaolong2009/article/details/84934294)
-5. [DRM应用程序进阶 （Property）](https://blog.csdn.net/hexiaolong2009/article/details/87211230)
-6. [DRM应用程序进阶 （atomic-crtc）](https://blog.csdn.net/hexiaolong2009/article/details/87392266)
-7. [DRM应用程序进阶 （atomic-plane）](https://blog.csdn.net/hexiaolong2009/article/details/87824581)
-8. [DRM (Direct Rendering Manager) 的发展历史](https://blog.csdn.net/hexiaolong2009/article/details/88075520)
-9. [DRM 驱动程序开发（开篇）](https://blog.csdn.net/hexiaolong2009/article/details/89810355)
-10. [DRM 驱动程序开发（VKMS）](https://blog.csdn.net/hexiaolong2009/article/details/105180621)
-11. [关于 DRM 中 DUMB 和 PRIME 名字的由来](https://blog.csdn.net/hexiaolong2009/article/details/105961192)
-12. [DRM GEM 驱动程序开发（dumb）](https://blog.csdn.net/hexiaolong2009/article/details/106532966)
-13. [DRM 驱动 mmap 详解：（一）预备知识](https://blog.csdn.net/hexiaolong2009/article/details/107592704)
-14. [DRM 驱动 mmap 详解：（二）CMA Helper](https://blog.csdn.net/hexiaolong2009/article/details/108655052)
-15. [LWN 翻译：Atomic Mode Setting 设计简介（上）](https://blog.csdn.net/hexiaolong2009/article/details/107661938)
-16. [LWN 翻译：Atomic Mode Setting 设计简介（下）](https://blog.csdn.net/hexiaolong2009/article/details/111876034)
+1. [最简单的DRM应用程序 （single-buffer）]
+2. [最简单的DRM应用程序 （double-buffer）]
+3. [最简单的DRM应用程序 （page-flip）]
+4. [最简单的DRM应用程序 （plane-test）]
+5. [DRM应用程序进阶 （Property）]
+6. [DRM应用程序进阶 （atomic-crtc）]
+7. [DRM应用程序进阶 （atomic-plane）]
+8. [DRM (Direct Rendering Manager) 的发展历史]
+9. [DRM 驱动程序开发（开篇）]
+10. [DRM 驱动程序开发（VKMS）]
+11. [关于 DRM 中 DUMB 和 PRIME 名字的由来]
+12. [DRM GEM 驱动程序开发（dumb）]
+13. [DRM 驱动 mmap 详解：（一）预备知识]
+14. [DRM 驱动 mmap 详解：（二）CMA Helper]
+15. [LWN 翻译：Atomic Mode Setting 设计简介（上）]
+16. [LWN 翻译：Atomic Mode Setting 设计简介（下）]
 17. [翻译：Mainline Explicit Fencing](https://blog.csdn.net/hexiaolong2009/article/details/107078634)
 
 dma-buf 系列：
-[dma-buf 由浅入深（一） —— 最简单的 dma-buf 驱动程序](https://blog.csdn.net/hexiaolong2009/article/details/102596744)
-[dma-buf 由浅入深（二） —— kmap / vmap](https://blog.csdn.net/hexiaolong2009/article/details/102596761)
-[dma-buf 由浅入深（三） —— map attachment](https://blog.csdn.net/hexiaolong2009/article/details/102596772)
-[dma-buf 由浅入深（四） —— mmap](https://blog.csdn.net/hexiaolong2009/article/details/102596791)
-[dma-buf 由浅入深（五） —— File](https://blog.csdn.net/hexiaolong2009/article/details/102596802)
-[dma-buf 由浅入深（六） —— begin / end cpu_access](https://blog.csdn.net/hexiaolong2009/article/details/102596825)
-[dma-buf 由浅入深（七） —— alloc page 版本](https://blog.csdn.net/hexiaolong2009/article/details/102596845)
-[dma-buf 由浅入深（八） —— ION 简化版](https://blog.csdn.net/hexiaolong2009/article/details/103795381)
-[LWN 翻译：DMA-BUF cache handling: Off the DMA API map (part 1)](https://blog.csdn.net/hexiaolong2009/article/details/106745686)
-[LWN 翻译：DMA-BUF cache handling: Off the DMA API map (part 2)](https://blog.csdn.net/hexiaolong2009/article/details/106843185)
+[dma-buf 由浅入深（一） —— 最简单的 dma-buf 驱动程序]
+[dma-buf 由浅入深（二） —— kmap / vmap]
+[dma-buf 由浅入深（三） —— map attachment]
+[dma-buf 由浅入深（四） —— mmap]
+[dma-buf 由浅入深（五） —— File]
+[dma-buf 由浅入深（六） —— begin / end cpu_access]
+[dma-buf 由浅入深（七） —— alloc page 版本]
+[dma-buf 由浅入深（八） —— ION 简化版]
+[LWN 翻译：DMA-BUF cache handling: Off the DMA API map (part 1)]
+[LWN 翻译：DMA-BUF cache handling: Off the DMA API map (part 2)]
 
 ------
 
@@ -98,17 +98,17 @@ dma-buf 系列：
 2. wowotech: [Linux graphic subsystem(2)_DRI介绍](http://www.wowotech.net/linux_kenrel/dri_overview.html)
 3. Boris Brezillon: [The DRM/KMS subsystem from a newbie’s point of view](https://events.static.linuxfound.org/sites/events/files/slides/brezillon-drm-kms.pdf)
 4. 线·飘零 博客园：[Linux环境下的图形系统和AMD R600显卡编程(1)](https://www.cnblogs.com/shoemaker/p/linux_graphics01.html)
-5. Younix脏羊 CSDN博客：[Linux DRM（二）基本概念和特性](https://blog.csdn.net/dearsq/article/details/78394388)
+5. Younix脏羊 CSDN博客：[Linux DRM（二）基本概念和特性]
 
 
 
 # 最简单的DRM应用程序 （single-buffer）
 
-分类专栏： [DRM (Direct Rendering Manager)](https://blog.csdn.net/hexiaolong2009/category_9281458.html) 文章标签： [DRM](https://so.csdn.net/so/search/s.do?q=DRM&t=blog&o=vip&s=&l=&f=&viparticle=) [Direct Rendering Manager](https://so.csdn.net/so/search/s.do?q=Direct Rendering Manager&t=blog&o=vip&s=&l=&f=&viparticle=) [libdrm](https://www.csdn.net/tags/OtDaIgxsNjYzMzItYmxvZwO0O0OO0O0O.html) [drmModeSetCrtc](https://so.csdn.net/so/search/s.do?q=drmModeSetCrtc&t=blog&o=vip&s=&l=&f=&viparticle=)
+分类专栏： [DRM (Direct Rendering Manager)]
 
 版权
 
-在上一篇[***DRM (Direct Rendering Manager) 学习简介***](https://blog.csdn.net/hexiaolong2009/article/details/83720940) 中，我们学习了DRM的基本概念以及基本组成元素。从本篇开始，我将以示例代码的形式，给大家分享学习DRM驱动开发的整个学习过程。
+在上一篇[***DRM (Direct Rendering Manager) 学习简介***] 中，我们学习了DRM的基本概念以及基本组成元素。从本篇开始，我将以示例代码的形式，给大家分享学习DRM驱动开发的整个学习过程。
 
 在学习DRM驱动之前，应该首先了解如何使用DRM驱动。以下使用伪代码的方式，简单介绍如何编写一个最简单的DRM应用程序。
 
@@ -879,5 +879,5 @@ int main(int argc, char **argv)
 **参考资料：**
 Android libdrm: [planetest.c](https://github.com/hexiaolong2008/libdrm/blob/master/tests/planetest/planetest.c)
 
-**文章汇总：** [***DRM (Direct Rendering Manager) 学习简介***](https://blog.csdn.net/hexiaolong2009/article/details/83720940)
+**文章汇总：** [***DRM (Direct Rendering Manager) 学习简介***]
 
